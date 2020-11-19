@@ -1,12 +1,6 @@
 package guru.springframework.sfgpetclinic.model;
 
-import lombok.*;
-
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
-
-public class PetType   {
+public class PetType extends BaseEntity{
 
     private String name;
 

@@ -1,14 +1,6 @@
 package guru.springframework.sfgpetclinic.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-import javax.persistence.Column;
-import javax.persistence.MappedSuperclass;
-
-public class Person {
+public class Person extends BaseEntity {
 
     private String firstName;
     private String lastName;
