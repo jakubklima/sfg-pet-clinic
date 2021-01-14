@@ -8,7 +8,15 @@ public class IndexController {
 
     @RequestMapping({ "/", "index", "index.html"})
     public String index(){
+        int x = 1;
+        System.out.println("inisde index controller" + x);
         return "index";
     }
 
+
+    @RequestMapping("oups")
+    public String oupsHandler() {
+
+        return "notimplemented";
+    }
 }
